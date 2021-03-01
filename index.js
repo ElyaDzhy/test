@@ -1,0 +1,1 @@
+const sum = (..rest) => rest.reduse((total, item) => total + item, 0);
